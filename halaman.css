@@ -1,0 +1,46 @@
+@media (min-width: 992px) {
+}
+
+@media (max-width: 991px) {
+}
+
+@media (max-width: 767px) {
+}
+
+
+.jumbotron{
+  background: url(img/caro2.jpg);
+  color: white;
+  text-align: center;
+  padding: 100px 0;
+  height: 400px;
+  color: #f6dda8;
+  filter: grayscale(60%);
+  backdrop-filter: brightness(30%);
+}
+
+.company-area { 
+  justify-content: center;
+  align-items: center;
+  display: flex; /* Sesuaikan dengan warna background navbar */
+  padding: 20px 0; /* Sesuaikan dengan kebutuhan */
+  text-align: center;
+}
+.company-area img {
+  max-width: 100px; /* Sesuaikan dengan kebutuhan */
+  height: auto;
+}
+
+ /* CSS untuk membuat navbar berada di tengah */
+    /* CSS untuk membuat navbar berada di tengah */
+.navbar-nav {
+  margin: 0 auto;
+  display: table;
+  table-layout: fixed;
+  float: none !important;
+}
+
+.warnaan{
+    color: #f6dda8;
+    font-family: 'Nanum Gothic';
+}
